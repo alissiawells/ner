@@ -1,5 +1,4 @@
-### demo script for organization recognition in raw text, 
-### using yargy-based and deeppavlov-based NER libs
+### yargy-based and deeppavlov-based NER for organization recognition in raw text
 
 ```sh
 $ git clone https://github.com/alissiawells/ner
