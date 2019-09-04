@@ -1,4 +1,5 @@
-# ner
+### demo script for organization recognition in raw text, 
+### using yargy-based and deeppavlov-based NER libs
 
 ```sh
 $ git clone https://github.com/alissiawells/ner
@@ -14,3 +15,5 @@ or
 ```sh
 $ python orgner.py test' to test on default text
 ```
+TODO:
+format BIO markup to tags 
