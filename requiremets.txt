@@ -1,0 +1,3 @@
+deeppavlov==0.5.1
+natasha==0.10.0
+numpy==1.16.4
