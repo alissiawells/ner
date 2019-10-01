@@ -35,8 +35,8 @@ def orgDeeppavlov(text, show=True):
     input: text - string
     output: list of strings (organizations)
     """
-    ner_model = build_model(configs.ner.ner_ontonotes_bert_mult, download=False)
-    #ner_model = build_model(configs.ner.ner_ontonotes_bert_mult, download=True)
+    #ner_model = build_model(configs.ner.ner_ontonotes_bert_mult, download=False)
+    ner_model = build_model(configs.ner.ner_ontonotes_bert_mult, download=True)
     organizations = []
     matches = ner_model([text])[0][0]
     tags = ner_model([text])[1][0]
