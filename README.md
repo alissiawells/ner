@@ -1,4 +1,4 @@
-### yargy-based and deeppavlov-based NER for organization recognition in raw text
+### BERT-based NER for persons / organization recognition in text
 
 ```sh
 $ python -m venv env
