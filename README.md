@@ -11,13 +11,18 @@ $ python -m deeppavlov install ner_ontonotes_bert
 ```
 edit input.txt
 
+Usage:
 ```sh
-$ python orgner.py input.txt output.txt
+$ python ner.py persons input.txt
 ```
 or
 ```sh
-$ python orgner.py test' to test on default text
+$ python ner.py organizations input.txt
+```
+
+To test on default text:
+```sh
+$ python orgner.py test' 
 ```
 TODO:
 format BIO markup to tags 
-# NERon
